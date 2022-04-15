@@ -22,10 +22,10 @@ python manage.pt runserver
 
 and then u can check it by Postman or REST Framework
 
-urls:
-  -/api/users POST
-  -/api/login POST
-  -/api/users/id POST
-  -/api/users/id GET
+  -urls:
+    -/api/users POST
+    -/api/login POST
+    -/api/users/id POST
+    -/api/users/id GET
 
 
