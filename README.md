@@ -23,9 +23,9 @@ python manage.pt runserver
 and then u can check it by Postman or REST Framework
 
 urls:
-1./api/users POST
-2./api/login POST
-3./api/users/id POST
-4./api/users/id GET
+  1./api/users POST
+  2./api/login POST
+  3./api/users/id POST
+  4./api/users/id GET
 
 
