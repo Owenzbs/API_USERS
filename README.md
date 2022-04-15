@@ -2,8 +2,30 @@
 
 This is a little API for USERS data
 
-first of all u need to pull git by command:
+#first of all u need to pull git by command:
 git pull https://github.com/Owenzbs/API_USERS.git
 
-the u need to install all requirments by command:
+-You need to install all requirments by command:
 pip install -r requirements.txt
+
+- You need to make changes in settings.py
+  - change the database info to connect to your database
+  - change the parametrs for email 
+
+- You need to apply this commands to make mirgrations:
+  - python manage.py makemigrations
+  - python manage.pt migrate
+
+If all fine then u can run server and check working API:
+python manage.pt runserver
+
+
+and then u can check it by Postman or REST Framework
+
+urls:
+1./api/users POST
+2./api/login POST
+3./api/users/id POST
+4./api/users/id GET
+
+
