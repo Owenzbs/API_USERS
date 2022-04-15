@@ -12,8 +12,8 @@ You need to make changes in settings.py
 You need to apply this commands to make mirgrations:
 
   - python manage.py makemigrations
-  - python manage.pt migrate
-If all fine then u can run server and check working API: python manage.pt runserver
+  - python manage.py migrate
+If all fine then u can run server and check working API: python manage.py runserver
 
 and then u can check it by Postman or REST Framework
 
